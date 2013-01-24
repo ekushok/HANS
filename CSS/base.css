@@ -1,0 +1,113 @@
+﻿html,body,div,p,h1,h2,h3,h4,h5,h6,ul,li,a{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:800px;
+	margin:10px auto;
+	background-color:#E6EFF3;
+	background-image:url(../images/bgside.png);
+	background-repeat:repeat-y;
+	border:solid 1px #2B3340;
+	color:Navy;
+}
+/*コンテナ*/
+#wrapper{
+	background-color:#84AFD2;
+	width:800px;
+}
+/*ヘッダ*/
+#header{
+	background-color:#84AFD2;
+	width:800px;
+	height:120px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:5px center;
+}
+#header h1 a{
+	text-decoration:none;
+	color:White;
+	font-size:100px;
+	line-height:120px;
+}
+
+/*サイド*/
+#side{
+	clear:both;
+	background-color:#84AFD2;
+	color:White;
+	float:left;
+	width:200px;
+}
+/*メニュー*/
+#side ul{
+	border-top:solid 1px #2B3340;
+}
+#side ul li{
+	list-style-type:none;
+	float:left;
+}
+#side ul li.end{
+	border:none;
+}
+#side ul li a{
+	background-color:#00CBE1;
+	display:block;
+	width:199px;
+	line-height:40px;
+	height:40px;
+	text-decoration:none;
+	color:White;
+	font-size:x-large;
+	text-align:center;
+	border:solid #2B3340;
+	border-width:0px 1px 1px 0px;
+}
+#side ul li a:hover{
+	background-color:#00567A;
+}
+/*メイン*/
+#main{
+	background-color:#e6eff4;
+	background-repeat:no-repeat;
+	float:left;
+	width:579px;
+	position:relative;
+	border:groove 10px #007db7;
+}
+#main h1{
+	color:#173865;
+	margin:5px;
+	padding:5px;
+	border-bottom:double 5px #b63365;
+	border-left:solid 10px #b63365;
+}
+#main h2{
+	color:#173865;
+	margin:5px;
+	padding:5px;
+	border-top:double 5px #b63365;
+	border-bottom:double 5px #b63365;
+	border-left:solid 10px #b63365;
+	border-right:solid 10px #b63365;
+}
+#main p{
+	margin:5px 20px;
+	line-height:1.5em;
+}
+/*フッタ*/
+#footer{
+	background-color:Gray;
+	clear:both;
+	border-top:solid 1px #2B3340;
+	text-align:right;
+}
+#footer a{
+	color:White;
+	line-height:3em;
+}
+#footer a:visited{
+	text-decoration:none;
+	color:White;
+}

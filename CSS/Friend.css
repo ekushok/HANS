@@ -1,0 +1,16 @@
+﻿
+/*テーブル*/
+table{
+	border:solid 1px #5b426c;
+	border-collapse:collapse;
+	margin:10px 20px;
+	width:500px;
+	background-color:#ffffcb;
+}
+td,th{
+	padding:4px;
+	border:double 5px #5b426c;
+}
+.BT{
+	margin:0px 20px;
+}

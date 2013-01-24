@@ -1,0 +1,20 @@
+﻿div.login{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+#main a{
+	line-height:1.5em;
+	background-color:#e2e3ed;
+	font-size:large;
+	font-weight:bold;
+}
+#main th{
+	background-color:#e2e3ed;
+}
+#main ul{
+	margin:30px;
+}
+#main li{
+	line-height:2em;
+}

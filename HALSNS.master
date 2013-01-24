@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<title>HANS|ハンズ</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+	<link href="CSS/base.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="form1" runat="server">
+<div id="wrapper">
+		<div id="header">
+			<h1>
+				<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/MemberPages/Profile.aspx">HANS</asp:HyperLink></h1>
+			<div id="day"></div>
+		</div>
+			<div id="side">
+				<ul>
+					<li>
+						<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/MemberPages/Profile.aspx">Home</asp:HyperLink></li>
+					<li>
+						<asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/MemberPages/Bbs.aspx">つぶやく？</asp:HyperLink></li>
+					<li>
+						<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/MemberPages/FriendView.aspx">フレンド</asp:HyperLink></li>
+					<li>
+						<asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/MemberPages/Friend.aspx">ユーザ検索</asp:HyperLink></li>
+					<li>
+						<asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/MemberPages/MessageBox.aspx">メッセージBOX</asp:HyperLink></li>
+					<li class="end">
+						<asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
+				</ul>
+			</div>
+    <div id="main">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+		<div id="footer"><a href="#">ページ最上段へ戻る</a>
+		<br /><br />
+		Copyright © 2012 Kohsuke Ohkubo All Rights Reserved.</div>
+		
+	</div>
+</form>
+</body>
+</html>

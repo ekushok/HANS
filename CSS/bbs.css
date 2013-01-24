@@ -1,0 +1,30 @@
+﻿.tweet{
+	width:400px;
+	margin:10px auto;
+}
+.tweet h4{
+	line-height:2em;
+}
+.tweet h6{
+	text-align:right;
+	margin-top:20px;
+}
+.given h4{
+	line-height:1.2em;
+}
+.given h6{
+	text-align:right;
+}
+.given hr{
+	width:500px;
+}
+.date{
+	width:400px;
+	margin:0px auto;
+}
+hr{
+	width:400px;
+}
+th{
+	text-align:center;
+}
